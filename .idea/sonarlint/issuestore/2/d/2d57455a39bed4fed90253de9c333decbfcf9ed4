@@ -1,0 +1,6 @@
+
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(µ§–Éùÿÿÿÿ
+\
+java:S1192["FDefine a constant instead of duplicating this literal "%s/%s" 4 times.(È½ÿ
+`
+java:S1124 "EReorder the modifiers to comply with the Java Language Specification.(ÅÕ£¹ûÿÿÿÿ

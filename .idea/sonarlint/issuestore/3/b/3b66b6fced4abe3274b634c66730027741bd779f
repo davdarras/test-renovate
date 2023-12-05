@@ -1,0 +1,22 @@
+
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒøíÿÿÿÿÿ8‚à¸¶’1
+q
+java:S2629n"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(šüû
+g
+java:S2095l"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(™ıÄ“
+o
+java:S2095“"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(™ıÄ“8¥å¸¶’1
+V
+java:S3457n"AFormat specifiers should be used instead of string concatenation.(šüû
+¬
+java:S1130y"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(¬š¨şÿÿÿÿ8‹ç¸¶’1
+?
+java:S1116‚"Remove this empty statement.(ôŸìúÿÿÿÿ8›ç¸¶’1
+Q
+java:S1854Œ":Remove this useless assignment to local variable "result".(î´ÁÕ
+B
+java:S1481Œ"+Remove this unused "result" local variable.(î´ÁÕ
+?
+java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8¬ç¸¶’1
+­
+java:S1130"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(ƒøíÿÿÿÿÿ8®ç¸¶’1

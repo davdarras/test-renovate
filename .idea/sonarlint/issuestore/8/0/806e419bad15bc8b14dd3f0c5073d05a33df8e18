@@ -1,0 +1,16 @@
+
+\	java:S112Œ"FDefine and throw a dedicated exception instead of using a generic one.(¬ßÃ´
+r
+java:S1192´"VDefine a constant instead of duplicating this literal "Entity already exists" 4 times.(ÙÿØüşÿÿÿÿ
+Z
+java:S2259D"?A "NullPointerException" could be thrown; "q" is nullable here.(Å“òëùÿÿÿÿ
+Z
+java:S2259T"?A "NullPointerException" could be thrown; "q" is nullable here.(Å“òëùÿÿÿÿ
+:
+java:S1168F"$Return an empty map instead of null.(¥¹ï
+:
+java:S1168V"$Return an empty map instead of null.(¥¹ï
+Y
+java:S3878g"CDisambiguate this call by either casting as "Object" or "Object[]".(²ƒó—
+Y
+java:S3878v"CDisambiguate this call by either casting as "Object" or "Object[]".(Š¶Ìø

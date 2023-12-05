@@ -1,0 +1,6 @@
+
+[	java:S1129"FDefine and throw a dedicated exception instead of using a generic one.(Χ“Ζφ
+a
+java:S1192"KDefine a constant instead of duplicating this literal "Null input" 3 times.(Ά
+U
+java:S4719#":Replace Charset.forName() call with StandardCharsets.UTF_8(—¬΄κώÿÿÿÿ
