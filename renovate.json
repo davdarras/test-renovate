@@ -34,9 +34,7 @@
   "vulnerabilityAlerts": {
     "enabled": true,
     "addLabels": ["security"],
-    "bumpVersion": "patch",
-    "schedule": ["before 5:00am"]
+    "bumpVersion": "patch"
   },
-  "schedule": ["every weekend"],
   "timezone": "Europe/Paris"
 }
