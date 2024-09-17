@@ -13,7 +13,7 @@
 	<groupId>fr.insee</groupId>
 	<artifactId>Pogues-BO</artifactId>
 	<packaging>war</packaging>
-	<version>4.3.0</version>
+	<version>4.3.1</version>
 	<name>Pogues-BO</name>
 
 	<properties>
@@ -187,7 +187,7 @@
             <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.7.0.1746</version>
+                <version>4.0.0.4121</version>
             </plugin>
 
 			<plugin>
