@@ -3,6 +3,11 @@
   "baseBranches": ["develop", "main"],
   "packageRules": [
     {
+      "enabled": false,
+      "matchPackagePatterns": ["*"],
+      "matchBaseBranches": ["main"]
+    },
+    {
       "matchPackagePatterns": ["*"],
       "matchBaseBranches": ["develop"],
       "labels": ["dependencies"],
