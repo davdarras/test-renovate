@@ -28,7 +28,7 @@
     }
   ],
   "vulnerabilityAlerts": {
-    "baseBranches": ["main"],
+    "matchBaseBranches": ["main"],
     "enabled": true,
     "addLabels": ["security"],
     "bumpVersion": "patch",
