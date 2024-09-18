@@ -96,8 +96,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  publish-docker:
-    needs: [ check-version, create-release ]
+  docker:
+    needs: [ check-version, build-sources ]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
