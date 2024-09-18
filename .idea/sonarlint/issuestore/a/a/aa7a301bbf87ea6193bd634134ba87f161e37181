@@ -1,27 +1,0 @@
-
-o
-java:S2293P"YReplace the type specification in this constructor call with the diamond operator ("<>").(·á¸ï
-t
-java:S2293z"YReplace the type specification in this constructor call with the diamond operator ("<>").(»ò©Ÿúÿÿÿÿ
-}
-java:S1192]"bDefine a constant instead of duplicating this literal "JSON malformed, parsing Exception" 3 times.(ŸÄ¥úÿÿÿÿ
-2
-java:S16433"Use a StringBuilder instead.(Ö°ş
-2
-java:S1643G"Use a StringBuilder instead.(ÂÔÑ‹
-
-java:S4165"kRemove this useless assignment; "questionnaire" already holds the assigned value along all execution paths.(è§§³
-
-java:S4165 "kRemove this useless assignment; "questionnaire" already holds the assigned value along all execution paths.(´ã°†
-
-java:S4165!"kRemove this useless assignment; "questionnaire" already holds the assigned value along all execution paths.(”äÆª
-†
-java:S4165"kRemove this useless assignment; "questionnaire" already holds the assigned value along all execution paths.(„Ì¤Áıÿÿÿÿ
-
-java:S4165"kRemove this useless assignment; "questionnaire" already holds the assigned value along all execution paths.(ÅŞï
-U
-java:S1118":Add a private constructor to hide the implicit public one.(«İ¯Ïÿÿÿÿÿ
-[
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(’Ò˜·
-”
-java:S1130"~Remove the declaration of thrown exception 'org.json.simple.parser.ParseException', as it cannot be thrown from method's body.(Ÿºº
