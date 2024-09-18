@@ -52,7 +52,7 @@ jobs:
           git push origin refs/tags/${{ steps.version.outputs.version }}:refs/tags/${{ steps.version.outputs.version }}
           echo "Done..."
 
-  create-release:
+  build-sources:
     needs: check-version
     runs-on: ubuntu-latest
     steps:
@@ -74,7 +74,7 @@ jobs:
           path: target/*.jar
 
   publish-docker:
-    needs: [ check-version, create-release ]
+    needs: [ check-version, build-sources ]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
