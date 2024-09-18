@@ -37,6 +37,12 @@ jobs:
         with:
           tag: ${{ steps.version.outputs.version }}
 
+      - name: Get latest tag
+        id: get_tag
+        run: |
+          TAG=$(git describe --tags `git rev-list --tags --max-count=1`)
+          echo "latest_tag=$TAG" >> $GITHUB_ENV
+
       - name: Create or update tag
         run: |
           if [[ "${{ steps.check-tag-exists.outputs.exists }}" == "true" ]]; then
@@ -46,6 +52,7 @@ jobs:
           fi
           echo "Creating new tag ${{ steps.version.outputs.version }}..."
           git tag ${{ steps.version.outputs.version }} ${{ github.sha }}
+          echo "Push tag ${{ steps.version.outputs.version }}..."
           git push origin ${{ steps.version.outputs.version }}
 
   create-release:
