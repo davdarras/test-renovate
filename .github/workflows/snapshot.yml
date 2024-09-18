@@ -49,7 +49,7 @@ jobs:
           echo "Creating new tag ${{ steps.version.outputs.version }}..."
           git tag ${{ steps.version.outputs.version }} ${{ github.sha }}
           echo "Push tag ${{ steps.version.outputs.version }} ${{ github.sha }}..."
-          git push origin refs/tags/${{ steps.version.outputs.version }}
+          git push origin refs/tags/${{ steps.version.outputs.version }}:refs/tags/${{ steps.version.outputs.version }}
           echo "Done..."
 
   create-release:
