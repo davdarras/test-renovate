@@ -25,6 +25,7 @@ jobs:
 
       - name: Get version
         id: version
+        shell: bash
         run: echo "version=$(echo ${GITHUB_REF#refs/heads/})" >>$GITHUB_OUTPUT
 
       - name: Print version
