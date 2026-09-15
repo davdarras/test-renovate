@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '21'
+          java-version: '21.0.12+101.0.LTS'
 
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -26,7 +26,7 @@ jobs:
       - name: Print source version
         run: echo ${{ steps.version-step.outputs.version }}
 
-      - uses: mukunku/tag-exists-action@v1.6.0
+      - uses: mukunku/tag-exists-action@v1.7.0
         name: Check tag existence
         id: check-tag-exists
         with:
@@ -53,7 +53,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '21'
+          java-version: '21.0.12+101.0.LTS'
 
       - uses: actions/checkout@v4
       - name: Build app
